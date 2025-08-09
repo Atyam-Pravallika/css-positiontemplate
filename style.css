@@ -1,0 +1,127 @@
+body{
+    margin-top:0;
+}
+.container1{
+    background-color: white;
+    position: fixed;
+    /* top: 0; */
+    margin-top: 0px;
+    z-index: 10;
+  
+    width:100%;
+}
+.child1{
+    display: inline-block;
+    padding: 20px;
+}
+.child2{
+     display: inline-block;
+     padding: 20px;
+     margin-left: 1000px;
+}
+.container2{
+    height: 500px;
+    position:relative;
+    z-index:0;
+}
+.img{
+    width:100%;
+}
+.container2>h3{
+    position: absolute;
+    color: white;
+    top: 450px;
+    left: 700px;
+    font-size:xx-large;
+}
+h3>span{
+    background-color: rgb(26, 26, 26);
+    padding:10px;
+}
+
+.child3{
+    padding-left: 10px;
+    
+}
+.subchild1{
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+    position:relative;
+}
+.img{
+    width:100%;
+}
+.subchild2{
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+     position:relative;
+}
+.img{
+    width:100%;
+}
+
+.subchild3{
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+     position:relative;
+}
+.img{
+    width:100%;
+}
+
+.subchild4{
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+     margin: 10px;
+     position:relative;
+} 
+.img{
+    width:100%;
+}
+.child3 h4{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position:absolute;
+    top:0px;
+    margin:0px;
+}
+.child4{
+   padding-left: 10px;
+}
+.child4 h4{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position:absolute;
+    top:0px;
+    margin:0px;
+}
+.container4{
+    padding-left: 20px;
+}
+.child5{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    height:200px;
+    width:300px;
+    margin:5px;
+}
+.img{
+    width:100%;
+}
+.container6{
+    padding-left: 20px;
+}
+.child6{
+    background-color: black;
+    color: white;
+    padding-left: 700px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
